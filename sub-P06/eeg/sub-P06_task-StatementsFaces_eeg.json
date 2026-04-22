@@ -1,0 +1,9 @@
+{
+    "TaskName": "StatementsFaces",
+    "SamplingFrequency": 250.0,
+    "SoftwareFilters": "n/a",
+    "EEGChannelCount": 65,
+    "EOGChannelCount": 4,
+    "EEGReference": "placed on Cz",
+    "PowerLineFrequency": 50
+}

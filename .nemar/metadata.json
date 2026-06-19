@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007688",
+  "source": "openneuro",
+  "source_id": "ds007688",
+  "title": "The Temporal Sequence of Party Leader Incongruence",
+  "authors": {
+    "Gustavo Couto de Jesus": {},
+    "Bert N. Bakker": {},
+    "Gijs Schumacher": {},
+    "Joe Bathelt": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007688.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "acknowledgements": "We thank Anna Mae van Dooren, Lois van Petegem, and Rayna Akil who helped in recruitment and data collection, Roeland Dubèl who helped reviewing our Dutch political statements, and  Manos Tsaikiris, Szymon Wichary, and Marte Otten for helpful feedback concerning the manuscript."
+}

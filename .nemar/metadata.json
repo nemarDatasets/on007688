@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Temporal Sequence of Party Leader Incongruence",
-  "description": "This dataset comprises high-density EEG recordings from 44 participants in a preregistered study investigating partisan processing of political incongruence. Using a multitask design with 'Just Faces' and 'Statements & Faces' tasks, the study disentangles neural responses to party leader identity and message content incongruence, testing the 'Hot Cognition' hypothesis. The dataset includes raw 64-channel EEG data, behavioral ratings, event annotations, political leader stimuli, and preprocessed derivatives.",
-  "methods_description": "EEG data were acquired using a 64-channel BioSemi ActiveTwo system with International 10-20 electrode layout, including EOG, ECG, and mastoid leads. Recordings were referenced to CMS/DRL and re-referenced to average reference during preprocessing. Data were band-pass filtered offline (0.5–40 Hz). Two experimental tasks were employed: (1) Just Faces task with 260 trials of 700ms face presentations to measure identity incongruence responses, and (2) Statements & Faces task with 240 trials using a 2×2 factorial design (In-party/Out-party × Pro-attitudinal/Counter-attitudinal) with statement durations of 1830–2880ms followed by face presentations of 1200–1400ms. Stimuli were presented using PsychoPy and analyzed with MNE-Python.",
+  "description": "This dataset comprises high-density EEG recordings from 44 participants in a preregistered study investigating partisan processing of political incongruence. Using a multitask design with 'Just Faces' and 'Statements & Faces' tasks, the study disentangles neural responses to party leader identity and message content incongruence, testing the 'Hot Cognition' hypothesis. Behavioral ratings and event annotations accompany the raw EEG data collected from Dutch political party supporters.",
+  "methods_description": "EEG data were acquired using a 64-channel BioSemi ActiveTwo system with International 10-20 electrode layout, including EOG, ECG, and mastoid leads. Stimuli were presented using PsychoPy. The 'Just Faces' task presented four political leaders and two control faces for 700ms across 260 trials. The 'Statements & Faces' task employed a 2×2 factorial design (In-party/Out-party × Pro-attitudinal/Counter-attitudinal) with 240 trials, where statements (1830–2880ms) preceded politician faces (1200–1400ms). Data were band-pass filtered offline (0.5–40 Hz) and re-referenced to average reference during preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,10 +29,7 @@
       "term": "partisan bias"
     },
     {
-      "term": "incongruence processing"
-    },
-    {
-      "term": "early posterior positivity"
+      "term": "face processing"
     }
   ],
   "related_identifiers": [

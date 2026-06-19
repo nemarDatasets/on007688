@@ -1,31 +1,113 @@
 {
   "version": "2.0",
-  "dataset_id": "on007688",
-  "source": "openneuro",
-  "source_id": "ds007688",
+  "pipeline_stage": "validated",
   "title": "The Temporal Sequence of Party Leader Incongruence",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Gustavo Couto de Jesus": {},
     "Bert N. Bakker": {},
     "Gijs Schumacher": {},
     "Joe Bathelt": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007688.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007688",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007688",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.8 GB (403 files)"
   ],
-  "acknowledgements": "We thank Anna Mae van Dooren, Lois van Petegem, and Rayna Akil who helped in recruitment and data collection, Roeland Dubèl who helped reviewing our Dutch political statements, and  Manos Tsaikiris, Szymon Wichary, and Marte Otten for helpful feedback concerning the manuscript."
+  "formats": [
+    ".csv",
+    ".edf",
+    ".gz",
+    ".html",
+    ".jpg",
+    ".json",
+    ".md",
+    ".png",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".xlsx"
+  ],
+  "description": "This dataset comprises high-density EEG recordings from 44 participants engaged in two complementary tasks designed to investigate the temporal dynamics of neural responses to political incongruence. Using a preregistered design with supporters of progressive and far-right Dutch political parties, the study disentangles identity-based incongruence (automatic responses to party leaders) from source-content incongruence (processing of incongruent political messages). Behavioral ratings and event annotations accompany the neuroimaging data, enabling investigation of the 'Hot Cognition' hypothesis regarding partisan information processing.",
+  "methods_description": "EEG data were acquired using a 64-channel BioSemi ActiveTwo system with electrodes positioned according to the International 10-20 layout, including EOG, ECG, and mastoid leads. Two experimental tasks were employed: (1) Just Faces Task with 260 trials of 700ms face presentations to measure automatic neural responses to political identity, and (2) Statements & Faces Task with 240 trials using a 2×2 factorial design (in-party/out-party × pro-attitudinal/counter-attitudinal statements) with statement durations of 1830–2880ms followed by face presentations of 1200–1400ms. Data were recorded with CMS/DRL reference and offline band-pass filtered (0.5–40 Hz). Behavioral measures included Likert-scale ratings of agreement, surprise, and upset, plus reaction times.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "political cognition"
+    },
+    {
+      "term": "social identity"
+    },
+    {
+      "term": "partisan bias"
+    },
+    {
+      "term": "visual P2"
+    },
+    {
+      "term": "political incongruence"
+    },
+    {
+      "term": "Hot Cognition"
+    },
+    {
+      "term": "Netherlands"
+    },
+    {
+      "term": "identity-based processing"
+    },
+    {
+      "term": "source-content processing"
+    },
+    {
+      "term": "GreenLeft/Labour"
+    },
+    {
+      "term": "Party for Freedom"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Union",
+      "award_number": "101072992",
+      "award_title": "IP-PAD: Horizon Europe MSCA Doctoral Networks"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "759079",
+      "award_title": "POLEMIC"
+    },
+    {
+      "funder_name": "NWO",
+      "award_number": "VI.Vidi.211.055",
+      "award_title": "Talent Programme VIDI"
+    }
+  ],
+  "source_hash": "2eb4e094a837ad0c667833d7457cf9cb745f73ce20fe12ef8d393a08e64a56d7"
 }

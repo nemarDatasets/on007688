@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Temporal Sequence of Party Leader Incongruence",
-  "description": "This dataset comprises high-density EEG recordings from 44 participants in a preregistered study investigating partisan processing of political incongruence. Using a multitask design with 'Just Faces' and 'Statements & Faces' tasks, the study disentangles neural responses to party leader identity and message content incongruence, testing the 'Hot Cognition' hypothesis. Behavioral ratings and event annotations accompany the raw EEG data collected from Dutch political party supporters.",
-  "methods_description": "EEG data were acquired using a 64-channel BioSemi ActiveTwo system with International 10-20 electrode layout, including EOG, ECG, and mastoid leads. Stimuli were presented using PsychoPy. The 'Just Faces' task presented four political leaders and two control faces for 700ms across 260 trials. The 'Statements & Faces' task employed a 2×2 factorial design (In-party/Out-party × Pro-attitudinal/Counter-attitudinal) with 240 trials, where statements (1830–2880ms) preceded politician faces (1200–1400ms). Data were band-pass filtered offline (0.5–40 Hz) and re-referenced to average reference during preprocessing.",
+  "description": "High-density 64-channel EEG and linked behavioral data from 44 Dutch participants in a preregistered study of how partisans process political incongruence. Two tasks separate identity incongruence (Just Faces) from source-content incongruence (Statements & Faces), using supporters of GreenLeft/Labour as the in-party group and the far-right PVV as the out-party group. The dataset tests the 'Hot Cognition' hypothesis by examining the temporal sequence of neural responses to party leaders and their messages.",
+  "methods_description": "EEG was recorded with a 64-channel BioSemi ActiveTwo system (10-20 layout, plus EOG, ECG and mastoid leads; CMS/DRL) and band-pass filtered offline at 0.5-40 Hz. Data were re-referenced to the average reference. Stimuli were presented with PsychoPy and data were analysed with MNE-Python. The Just Faces task had 260 trials, and the Statements & Faces task had 240 trials in a 2x2 design of face (in-party vs. out-party) by statement (pro- vs. counter-attitudinal).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,19 +17,24 @@
       "term": "EEG"
     },
     {
+      "term": "political incongruence"
+    },
+    {
       "term": "event-related potentials"
     },
     {
-      "term": "political cognition"
+      "term": "hot cognition"
     },
     {
-      "term": "social identity"
+      "term": "face perception"
     },
     {
-      "term": "partisan bias"
+      "term": "partisanship"
     },
     {
-      "term": "face processing"
+      "term": "Politics",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011057"
     }
   ],
   "related_identifiers": [
@@ -39,14 +44,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007688",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds007688.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007688",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -72,7 +77,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.3 GB (1230 files)"
+    "13.34 GB (1230 files)"
   ],
   "formats": [
     ".csv",
